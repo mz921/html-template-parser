@@ -11,7 +11,7 @@ const {
     regexParserFactory,
     setCurState,
     getCurState
-} = require("../parser-combinators/index");
+} = require("parser_combinator_lib");
 
 const leftAngleBracket = str("<");
 const rightAngleBracket = str(">");
